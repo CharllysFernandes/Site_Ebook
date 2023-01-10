@@ -1,23 +1,29 @@
 :root{
     --color-bg-main: #fcda33;
+    --color-icon-twitter: #56aef0;
+    --color-facebook:#3b5997;
+    --color-linkedin:#2976b3;
 
 }
 *{
     padding: 0;
     margin: 0;
 }
-header nav {
+main{
     background-color: var(--color-bg-main);
 }
-main{
-    background-image: url('./wave.svg');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    height: 80vh;
-    padding: 96px 0 0 0;
-    
+
+#form{
+    max-width: 20rem;
+
 }
 
-.book{
-    rotate: 180;
+.bi-facebook{
+    color: var(--color-facebook);
+}
+.bi-twitter{
+    color: var(--color-icon-twitter);
+}
+.bi-linkedin{
+    color: var(--color-linkedin);
 }
